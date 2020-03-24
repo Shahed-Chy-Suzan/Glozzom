@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/navbar-fixed.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+    
+    <link rel="stylesheet" href="scss/style.css">
+
+    <title>Glozzom</title>
+</head>
+<body>
+                <!------------- NAVIGATION ---------->
+    <nav class="navbar navbar-dark navbar-expand-md" uk-sticky="top: 200; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Glozzom</a>
+           <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarNav">
+             <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" href="blog.html">BLOG</a>
+                </li>
+                <li class="nav-item">
+                   <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+      </div>
+    </nav>
+
+                        <!-------- Carousal-Slider ----------->
+    <section id="showcase" class="bg-dark">
+      <div id="slider" class="carousel slide" data-ride="carousel"> <!--.carousel-fade-->
+        <ol class="carousel-indicators">
+           <li class="active" data-target="#slider" data-slide-to="0"></li>
+           <li data-target="#slider" data-slide-to="1"></li>
+           <li data-target="#slider" data-slide-to="2"></li>
+        </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-img-1 active">
+              <div class="container">
+                 <div class="carousel-caption mb-3 pb-3 mb-sm-5">
+                    <h1 class="display-4">Heading 1</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur praesentium totam repudiandae iusto unde delectus cum hic perspiciatis, animi nisi.</p>
+                     <a class="btn btn-primary" href="#">Learn More</a>
+                  </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-img-2">
+               <div class="container">
+                 <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5 text-left">
+                    <h1 class="display-4">Heading 2</h1>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur praesentium totam repudiandae iusto unde delectus cum hic perspiciatis, animi nisi.</p>
+                    <a class="btn btn-outline-warning" href="#">Learn More</a>
+                    </div>
+                 </div>
+                 </div>
+                 <div class="carousel-item carousel-img-3">
+                    <div class="container">
+                       <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5 text-right">
+                         <h1 class="display-4">Heading 3</h1>
+                         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur praesentium totam repudiandae iusto unde delectus cum hic perspiciatis, animi nisi.</p>
+                         <a class="btn btn-info" href="#">Learn More</a>
+                        </div>
+                      </div>
+                 </div>
+            </div>
+            <a href="#slider" class="carousel-control-prev" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#slider" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+                    <!-- ----- HOME-ICON ---------->
+    <section id="homeicon" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 my-2" data-aos="fade-down-right">
+            <div class="box text-center">
+              <i class="fa fa-gears"></i>
+              <h3 class="my-2">Turning Gears</h3>
+              <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+            </div>
+          </div>
+          <div class="col-md-4 my-2" data-aos="flip-right">
+            <div class="box text-center">
+              <i class="fa fa-cloud"></i>
+              <h3 class="my-2">Sending Data</h3>
+              <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+            </div>
+          </div>
+          <div class="col-md-4 my-2" data-aos="fade-up-left">
+            <div class="box text-center">
+              <i class="fa fa-cart-plus"></i>
+              <h3 class="my-2">Making Money</h3>
+              <p class="lead mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, maxime.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+                  <!---------- HOME-GET STARTED ------------>
+    <section id="getstarted" class="py-5 text-center text-light">
+      <div class="dark-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col my-5">
+              <h3 style="font-family: 'Caveat', cursive;">Are You Ready To Get Started?</h3>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quaerat voluptatem laboriosam vero recusandae repellendus? Impedit iure est sit voluptatum blanditiis cum sequi laudantium quod dicta, a quaerat vel, obcaecati!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+                    <!---------- HOME - Info Section ----------->
+    <section id="homeinfo" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center" data-aos="fade-down-right">
+            <h3>Lorem Ipsum Dolor Sit</h3>
+            <p style="font-family: 'Satisfy', cursive;" class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, quaerat unde labore sequi facilis possimus nulla a! Aliquam, saepe illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, praesentium!</p>
+            <button class="btn btn-dark">Read More</button>
+          </div>
+          <div class="col-md-6 mt-sm-3 mt-3 mt-md-0" data-aos="fade-down-up">
+            <img src="img/pc.jpeg" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+    </section>
+
+                      <!---------- HOME-Video Icon ----------->
+    <section id="home-video" class="text-center text-light">
+      <div class="dark-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col mt-5 pt-4">
+              <div uk-lightbox>
+                <a href="www.youtube.com/moshiur">
+                  <i class="fa fa-play-circle"></i>
+                </a>
+              </div>
+              <h3 class="mt-3">Bootstrap 4 Crash Course</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+                  <!------------- Photo-Gallery ------------>
+
+    <section id="gallery" class="py-5" uk-lightbox>
+      <div class="container">
+        <div class="row text-center pb-3">
+          <div class="col">
+            <h3>Photo Gallery</h3>
+            <p class="lead">Check out our photos</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div>
+              <a href="img/image1.jpeg">
+                <img src="img/image1.jpeg" class="img-fluid" alt="image">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <a href="img/image2.jpeg">
+                <img src="img/image2.jpeg" class="img-fluid" alt="image">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <a href="img/image4.jpeg">
+                <img src="img/image4.jpeg" class="img-fluid" alt="image">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-0 pt-md-4">
+          <div class="col-md-4">
+            <div>
+              <a href="img/image5.jpeg">
+                <img src="img/image5.jpeg" class="img-fluid" alt="image">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <a href="img/image6.jpeg">
+                <img src="img/image6.jpeg" class="img-fluid" alt="image">
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <a href="img/image3.jpeg">
+                <img src="img/image3.jpeg" class="img-fluid" alt="image">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+            <!-------- Mixit up-plugin (photo-gallery-2)(choosing by button) -------->
+                  
+     <section id="gallery-2" class="pb-5" uk-lightbox>
+        <div class="container">
+          <div class="row text-center pb-3">
+            <div class="col">
+              <h3> <span class="yellow">Photo</span> Gallery (2)</h3>
+              <p class="lead mb-0">Choose out our photos by clicking button given below</p>
+              <div class="line"></div>
+            </div>
+          </div>
+
+        <div class="pb-3 text-center">
+          <button type="button" class="btn btn-dark px-3 mx-1" data-filter="all">All</button>
+          <button type="button" class="btn btn-dark px-3 mx-1" data-filter=".roads">Roads</button>
+          <button type="button" class="btn btn-dark px-3 mx-1" data-filter=".girls">Girls</button>
+          <button type="button" class="btn btn-dark px-3 mx-1" data-filter=".others">Others</button>
+        </div>
+
+          <div class="row galleryNew">
+            <div class="col-md-4 mb-md-4 mix roads">
+              <div>
+                <a href="img/image1.jpeg">
+                  <img src="img/image1.jpeg" class="img-fluid" alt="image">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 mb-md-4 mix girls">
+              <div>
+                <a href="img/image6.jpeg">
+                  <img src="img/image6.jpeg" class="img-fluid" alt="image">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 mb-md-4 mix others">
+              <div>
+                <a href="img/image4.jpeg">
+                  <img src="img/image4.jpeg" class="img-fluid" alt="image">
+                </a>
+              </div>
+            </div>
+        <!-- </div>
+          <div class="row galleryNew pt-0 pt-md-4"> -->
+            <div class="col-md-4 mix girls">
+              <div>
+                <a href="img/image5.jpeg">
+                  <img src="img/image5.jpeg" class="img-fluid" alt="image">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 mix roads">
+              <div>
+                <a href="img/image2.jpeg">
+                  <img src="img/image2.jpeg" class="img-fluid" alt="image">
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 mix others">
+              <div>
+                <a href="img/image3.jpeg">
+                  <img src="img/image3.jpeg" class="img-fluid" alt="image">
+                </a>
+              </div>
+            </div>
+          </div>
+        <!-- </div> -->
+       </section> <!--last e eitar script file add kora hoyeche -->
+
+                <!------------- NEWSLETTER ------------>
+    <section id="newsletter" class="py-5 bg-dark text-center text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Signup For Our Newsletter</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis magnam similique esse assumenda quasi repellendus illum perferendis quos aliquid possimus.</p>
+          <form action="#" method="POST" class="form-inline justify-content-center">
+            <label class="sr-only" for="name">Name</label>
+            <input type="text" class="form-control m-2" id="name" placeholder="Enter name">
+            <label class="sr-only" for="Email">Email</label>
+            <input type="text" class="form-control m-2" id="Email" placeholder="Enter email">
+            <input class="btn btn-primary m-2" type="submit" value="Subscribe">
+          </form>
+        </div>
+        </div>
+      </div>
+    </section>
+
+
+
+              <!----- Our-Clients(own.carousel-slide) ----->
+
+  <section id="clients" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>Our Clients</h2>
+          <p style="font-family: 'Satisfy', cursive;" class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam ipsa inventore asperiores sequi assumenda unde quisquam ducimus tempora, dicta nisi.</p>
+        </div>
+        <div class="col-12">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <img src="img/person4.jpg" class="rounded-circle" alt="image">
+                </div>
+                <div class="item">
+                  <img src="img/person2.jpg" class="rounded-circle" alt="image">
+                </div>
+                <div class="item">
+                  <img src="img/person3.jpg" class="rounded-circle" alt="image">
+                </div>
+                <div class="item">
+                  <img src="img/image5.jpeg" class="rounded-circle" alt="image">
+                </div>
+                <div class="item">
+                  <img src="img/bg1.jpeg" class="rounded-circle" alt="image">
+                </div>
+                <div class="item">
+                  <img src="img/image6.jpeg" class="rounded-circle" alt="image">
+                </div>
+                <div class="item">
+                  <img src="img/create.jpeg" class="rounded-circle" alt="image">
+                </div>
+                <div class="item">
+                  <img src="img/desk.jpeg" class="rounded-circle" alt="image">
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+                            <!--------- Copyright ----------->
+    <section id="copyright" class="text-center text-light py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <P class="lead mb-0">Copyright 2018 &copy; Glozzom</P>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------------------------------------ -->
+      
+
+
+    <!-- JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/navbar-fixed.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/aos.js"></script>
+    
+
+
+    <!-- ------------------------------------------------------- -->
+
+    <script>
+      var containerEl = document.querySelector('.galleryNew');
+      var mixer = mixitup(containerEl);
+   </script> 
+   <!-- eta mixitup plugin er jquery code "Photo-Gallery"(2) section er -->
+
+
+   <script>
+      $(document).ready(function() {
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+          margin: 10,
+          nav: false,
+          loop: true,
+          autoplay:true,
+          autoplayTimeout: 1000,
+          autoplayHoverPause:true,
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 3
+            },
+            1000: {
+              items: 5
+            }
+          }
+        })
+      })
+    </script>
+    
+    <!-- eta "OWL CAROUSEL" er jquery code /Clients section er -->
+
+    <script>
+      $(function() {  
+      $("body").niceScroll({
+        cursorborder: "1px solid #fff",
+      });
+     });
+    </script>
+    <!-- eta "Nice Scroll bar" er jquery code -->
+
+        <script>
+          AOS.init({
+            duration: 2000
+          });
+        </script>
+      <!-- eta "AOS" er jquery code -->
+
+
+   <!-- ------------------------------------------------------- -->
+
+</body>
+</html>
