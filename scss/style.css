@@ -99,20 +99,20 @@
   background: #7636ca;
 }
 
-#copyright {
-  background: #000;
-}
-
 #clients img {
   width: 170px;
   height: 170px;
+}
+
+#copyright {
+  background: #000;
 }
 
 #page-header {
   background: url("../img/image2.jpeg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  height: 200px;
+  max-height: 200px;
 }
 
 #about-info img {
@@ -136,6 +136,30 @@
   background-attachment: fixed;
   height: 200px;
 }
+
+/*==================================
+            back-to-top
+====================================*/
+#back-to-top {
+  right: 20px;
+  bottom: 20px;
+  position: fixed;
+  padding: 3px 12px;
+  border-radius: 4px;
+  border: 2px solid yellow;
+  font-size: 20px;
+  display: none;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+#back-to-top:hover {
+  border: 2px solid #4719f0;
+  background-color: #fdfd35;
+  color: blue;
+}
+
+/*==================================*/
 
 @media (max-width: 767px) {
   .nav-item {

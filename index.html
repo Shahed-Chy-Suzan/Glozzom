@@ -24,7 +24,7 @@
 
     <title>Glozzom</title>
 </head>
-<body>
+<body id="aaa">
                 <!------------- NAVIGATION ---------->
     <nav class="navbar navbar-dark navbar-expand-md" uk-sticky="top: 200; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
       <div class="container">
@@ -319,7 +319,7 @@
             <label class="sr-only" for="name">Name</label>
             <input type="text" class="form-control m-2" id="name" placeholder="Enter name">
             <label class="sr-only" for="Email">Email</label>
-            <input type="text" class="form-control m-2" id="Email" placeholder="Enter email">
+            <input type="email" class="form-control m-2" id="Email" placeholder="Enter email">
             <input class="btn btn-primary m-2" type="submit" value="Subscribe">
           </form>
         </div>
@@ -366,7 +366,7 @@
                 </div>
               </div>
         </div>
-      </div>
+      </div>  <!--last e eitar script file add kora hoyeche -->
     </div>
   </section>
 
@@ -382,6 +382,11 @@
       </div>
     </section>
 
+
+              <!--------------------back to top--------------------->
+        <a href="#aaa" id="back-to-top" class="btn btn-primary" title="home" role="button">
+          <i class="fa fa-angle-up"></i>
+        </a>
     <!-- ------------------------------------------------------------ -->
       
 
@@ -406,7 +411,7 @@
     <script>
       var containerEl = document.querySelector('.galleryNew');
       var mixer = mixitup(containerEl);
-   </script> 
+    </script> 
    <!-- eta mixitup plugin er jquery code "Photo-Gallery"(2) section er -->
 
 
@@ -437,14 +442,7 @@
     
     <!-- eta "OWL CAROUSEL" er jquery code /Clients section er -->
 
-    <script>
-      $(function() {  
-      $("body").niceScroll({
-        cursorborder: "1px solid #fff",
-      });
-     });
-    </script>
-    <!-- eta "Nice Scroll bar" er jquery code -->
+
 
         <script>
           AOS.init({
@@ -452,6 +450,27 @@
           });
         </script>
       <!-- eta "AOS" er jquery code -->
+
+
+
+      <!-----------JS (back-to-top)-------------->
+<script>
+  //show and hide white nav
+  $(function () {
+  
+  $(window).scroll(function () {
+  
+      if ($(window).scrollTop() > 80) {
+          //show back top button
+          $("#back-to-top").fadeIn();
+  
+      }else {
+          //hide back top button
+          $("#back-to-top").fadeOut();
+      }
+  });
+  });
+  </script>
 
 
    <!-- ------------------------------------------------------- -->

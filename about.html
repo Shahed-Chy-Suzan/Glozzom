@@ -69,13 +69,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 align-self-center" data-aos="fade-up"
-        data-aos-duration="3000">
+        data-aos-duration="2000">
           <h3>What We Do</h3>
           <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ex quaerat magnam obcaecati repellendus voluptatum quisquam architecto iure, aliquam labore.</p>
           <p class="lead text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, veniam. Ipsum ipsam facilis earum, corporis dicta cum, rerum non suscipit.</p>
         </div>
         <div class="col-md-6 text-center" data-aos="fade-up"
-        data-aos-duration="3000">
+        data-aos-duration="1000">
           <img src="img/image4.jpeg" class="img-fluid rounded-circle">
         </div>
       </div>
@@ -201,15 +201,26 @@
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
     <script src="js/slick.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/aos.js"></script>
 
-        <script>
-          AOS.init({
-            duration: 1000
-          });
-        </script>
-      <!-- eta "AOS" er jquery code -->
+
+    <script>
+      $(function() {  
+      $("body").niceScroll({
+        cursorborder: "1px solid #fff",
+      });
+     });
+    </script>
+    <!-- eta "Nice Scroll bar" er jquery code -->
+
+      <script>
+        AOS.init({
+          duration: 1000
+        });
+      </script>
+    <!-- eta "AOS" er jquery code -->
 
 </body>
 </html>
