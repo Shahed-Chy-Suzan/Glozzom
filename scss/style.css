@@ -116,6 +116,7 @@
   background-image: url("../img/image1.jpeg");
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 #particles-js h3 {
@@ -123,7 +124,7 @@
   color: #fff;
   text-transform: capitalize;
   font-size: 55px;
-  position: relative;
+  position: absolute;
   float: left;
   left: 50%;
   top: 50%;
