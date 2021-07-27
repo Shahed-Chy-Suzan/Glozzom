@@ -154,7 +154,7 @@
             <button class="btn btn-dark">Read More</button>
           </div>
           <div class="col-md-6 mt-sm-3 mt-3 mt-md-0" data-aos="fade-down-up">
-            <img src="img/pc.jpeg" class="img-fluid rounded">
+            <img src="img/pc.jpeg" class="img-fluid rounded zoomImg">   <!-- zoomImg class er jonno niche jqueryCode+plugin royeche -->
           </div>
         </div>
       </div>
@@ -415,6 +415,16 @@
 
 
     <!-- ------------------------------------------------------- -->
+    <script src="js/zoomsl.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".zoomImg").imagezoomsl({
+          zoomrange: [3, 3]
+        })
+      })
+    </script>
+    <!-- Image zoom | zoomsl | img zoom effect jquery plugin -->
+
 
     <script>
       var containerEl = document.querySelector('.galleryNew');
@@ -447,7 +457,6 @@
         })
       })
     </script>
-    
     <!-- eta "OWL CAROUSEL" er jquery code /Clients section er -->
 
 
@@ -462,23 +471,23 @@
 
 
       <!-----------JS (back-to-top)-------------->
-<script>
-  //show and hide white nav
-  $(function () {
-  
-  $(window).scroll(function () {
-  
-      if ($(window).scrollTop() > 80) {
-          //show back top button
-          $("#back-to-top").fadeIn();
-  
-      }else {
-          //hide back top button
-          $("#back-to-top").fadeOut();
-      }
-  });
-  });
-  </script>
+      <script>
+        //show and hide white nav
+        $(function () {
+        
+        $(window).scroll(function () {
+        
+            if ($(window).scrollTop() > 80) {
+                //show back top button
+                $("#back-to-top").fadeIn();
+        
+            }else {
+                //hide back top button
+                $("#back-to-top").fadeOut();
+            }
+        });
+        });
+        </script>
 
 
    <!-- ------------------------------------------------------- -->
